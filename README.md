@@ -16,15 +16,12 @@
 <body style="background-color: white; color: white;">>
 
 <h1>NAVUSA COPY MADTHA IDVI NIVSA MADI</h1>
-
-<p style ="color:red;"
-<<h5>----------PART A-----------</h5></p> onclick="copyCode(1)">1</button>
+<<h5>----------PART🫱🫲 A-----------</h5></p> onclick="copyCode(1)">1</button>
 <button onclick="copyCode(2)">2</button>
 <button onclick="copyCode(3)">3</button>
 <button onclick="copyCode(4)">4</button>
 <button onclick="copyCode(5)">5</button>
-<p style ="color:red;"
-<h5>----------PART B-----------</h5></p>
+<h5>----------PART🫱🫲 B-----------</h5>
 <button onclick="copyCode(6)">6</button>
 <button onclick="copyCode(7)">7</button>
 <button onclick="copyCode(8)">8</button>
