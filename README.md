@@ -109,12 +109,27 @@ print ("I", soln)
 
 <pre id="code7">
 from sympy import*
-var ('x,y')
-p=y-sin(x)
-q=cos(x)
-f= diff (q, x) -diff (p, y) 
-soln= integrate (f, [y, 0,2*x/2], [x,0, pi/2])
-print ("I", soln)
+var('x y')
+x0,y0=0,0
+x1,x2,x3=0.1,0.2,0.3 
+y1=2*y+3*exp(x)
+y2=2*y1+3*exp(x) 
+y3=2*y2+3*exp(x)
+y4=2*y3+3*exp(x) 
+y1=y1.subs({x:0,y:0})
+y2=y2.subs({x:0,y:0}) 
+y3=y3.subs({x:0,y:0}) 
+y4=y4. subs({x:0,y:0})
+print(f'yl={y1},y2={y2},y3={y3},y4={y4}')
+TS=y0+(x-x0)*y1+(x-x0)**2*y2/2+(x-x0)**3*y3/6+(x-x0)**4*y4/24 
+print(f'The required Taylors series is\n y= ') 
+display(TS) 
+TSx1=round(TS.subs({x:x1}),4)
+print(f'The va value of y({x1})= {TSx1}') 
+TSx2=round(TS.subs({x:x2}),4) 
+print(f'The value of y({2})={TSx2}') 
+TSx3=round(TS.subs( {x:x3}),4)
+print(f'The value of y({x3})={TSx3}')
 </pre>
 <pre id="code8">
 from numpy import*
