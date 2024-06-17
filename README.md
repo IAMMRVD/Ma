@@ -14,11 +14,7 @@
 </style>
 </head>
 <body style="background-color: white; color: white;">>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Print Big Google Logo</title>
   <style>
     body {
@@ -32,8 +28,7 @@
 </head>
 <body>
   <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
-</body>
-</html>
+
 <h1>NAVUSA COPY MADTHA IDVI NIVSA MADI</h1>
 <p style="color: red;">A</p>
 
