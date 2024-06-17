@@ -17,6 +17,12 @@
 <body style="background-color: white; color: white;">
 
 
+<form action="https://www.google.com/search" method="get" target="_blank">
+        <label for="search-query">Enter your search query:</label><br>
+        <input type="text" id="search-query" name="q" required><br><br>
+        <input type="submit" value="Google Search">
+    </form>
+
 <h1>NAVUSA COPY MADTHA IDVI NIVSA MADI</h1>
 <p style="color: red;">A</p>
 
