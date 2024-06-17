@@ -14,7 +14,7 @@
 </style>
 </head>
   <center><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"></center>
-<body style="background-color: white; color: white;">>
+<body style="background-color: white; color: white;">
 
 
 <h1>NAVUSA COPY MADTHA IDVI NIVSA MADI</h1>
