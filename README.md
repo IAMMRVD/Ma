@@ -1,40 +1,91 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Java Code Snippets</title>
-<style>
-    pre {
-        background-color: #ffffff;
-        padding: 1px;
-        border-radius: 1px;
-        overflow-x: auto;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search and Display</title>
+    <style>
+        /* Basic styling for demonstration */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+        .search-form {
+            margin-bottom: 20px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .image-item {
+            text-align: center;
+        }
+        .image-item img {
+            max-width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
 </head>
-  <center><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"></center>
-<body style="background-color: white; color: white;">
+<body>
+    <div class="container">
+        <h1>Image Search and Display</h1>
+        <form class="search-form" onsubmit="searchImages(event)">
+            <input type="text" id="searchInput" placeholder="Enter search term">
+            <button type="submit">Search</button>
+        </form>
+        <div class="image-grid" id="imageGrid">
+            <!-- Images will be displayed here -->
+        </div>
+    </div>
 
+    <script>
+        function searchImages(event) {
+            event.preventDefault(); // Prevent form submission
 
-<center><form action="https://www.google.com/search" method="get" target="_blank">
-        <label for="search-query">Enter your search query:</label><br>
-        <input type="text" id="search-query" name="q" required><br><br>
-        <input type="submit" value="Google Search">
-    </form></center>
+            // Get search term from input field
+            let searchTerm = document.getElementById('searchInput').value;
 
-<
-<script>
-function copyCode(id) {
-    var code = document.getElementById('code' + id);
-    var range = document.createRange();
-    range.selectNode(code);
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
-    document.execCommand("copy");
-    window.getSelection().removeAllRanges();
-    alert("Code " + id + " copied to clipboard!");
-}
-</script> 
+            // Dummy function to fetch images (replace with actual API call)
+            fetchImages(searchTerm);
+        }
+
+        function fetchImages(searchTerm) {
+            // Dummy array of image URLs (replace with actual data retrieval logic)
+            let images = [
+                'https://via.placeholder.com/300',
+                'https://via.placeholder.com/400',
+                'https://via.placeholder.com/500'
+            ];
+
+            // Display images on the UI
+            displayImages(images);
+        }
+
+        function displayImages(images) {
+            let imageGrid = document.getElementById('imageGrid');
+            imageGrid.innerHTML = ''; // Clear previous images
+
+            images.forEach(imageUrl => {
+                let imageItem = document.createElement('div');
+                imageItem.classList.add('image-item');
+
+                let img = document.createElement('img');
+                img.src = imageUrl;
+
+                imageItem.appendChild(img);
+                imageGrid.appendChild(imageItem);
+            });
+        }
+    </script>
+</body>
+</html>
 
 
