@@ -57,10 +57,10 @@
             fetchImages(searchTerm);
         }
 
-        function fetchImages(searchTerm) {
+        function fetchImages(vijeth) {
             // Dummy array of image URLs (replace with actual data retrieval logic)
             let images = [
-                'https://via.placeholder.com/300',
+                'https://drive.google.com/file/d/13UTBbzzVf8hVmZEU0n1Y2NmjcIIU1mOe/view?usp=drive_link',
                 'https://via.placeholder.com/400',
                 'https://via.placeholder.com/500'
             ];
