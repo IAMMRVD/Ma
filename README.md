@@ -6,9 +6,9 @@
   
   initial-scale=1.0">
   <title>Google Logo</title>
-</head>
+
 <body>
-  <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo">
+<center>  <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo"></center>
 
 <body>
     
@@ -40,7 +40,7 @@
     </style>
 </head>
 <body>
-    <center><h1>Iosometric and solids</h1></center>
+  
    <center> <input type="text" id="searchInput" placeholder="Search links..."></center>
     <ul id="linkList">
         <!-- Generating 50 links -->
