@@ -155,5 +155,26 @@ solid.</a></li>
   <li><a href="https://drive.google.com/file/d/1pV7FBcjMS5bdVohtEPBXTK-vunVl0PPK/view?usp=sharing">Problem 50 A nictangular slab base-100mmx80mm and height 30mm has a full depth co-axial square hole side- 40mm, such that one of the sides of the square is parallel to one of the sides of the rectangle. Draw the isometric projection of the combination</a></li>
 </ul>
 
+
+
+    <script>
+        // JavaScript to handle the search functionality
+        const searchInput = document.getElementById('searchInput');
+        const linkList = document.getElementById('linkList').getElementsByTagName('li');
+
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            for (let i = 0; i < linkList.length; i++) {
+                const linkText = linkList[i].innerText.toLowerCase();
+                if (linkText.includes(searchTerm)) {
+                    linkList[i].style.display = 'block';
+                } else {
+                    linkList[i].style.display = 'none';
+                }
+            }
+        });
+    </script>
 </body>
 </html>
+
+
