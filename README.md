@@ -2,7 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, 
+  initial-scale=1.0">
+    <title>Google Search</title>
+</head>
+<body>
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+        <label for="search-input">Search Google:</label>
+        <input type="text" id="search-input" name="q" placeholder="Enter your search term...">
+        <button type="submit">Search</button>
+    </form>
+
+
     <title>Searchable Links</title>
     <style>
         /* Optional: Basic styling for better presentation */
@@ -32,7 +43,7 @@
     </style>
 </head>
 <body>
-    <h1>Iosometric and solids</h1>
+    <center><h1>Iosometric and solids</h1></center>
     <input type="text" id="searchInput" placeholder="Search links...">
     <ul id="linkList">
         <!-- Generating 50 links -->
