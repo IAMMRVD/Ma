@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, 
   
-  initial-scale=1.0">
+  initial-scale=4.0">
   <title>Google Logo</title>
 
 <body>
@@ -38,7 +38,7 @@
             text-decoration: underline;
         }
     </style>
-</head>
+
 <body>
   
    <center> <input type="text" id="searchInput" placeholder="Search links..."></center>
