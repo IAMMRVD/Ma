@@ -148,11 +148,13 @@ solid.</a></li>
     -------------------------------------------------------------------------------------------------------------------------------------------
   <li><a href="https://drive.google.com/file/d/1a0zS5fVHsZU0ar9jykwPlMagDKdDe_TH/view?usp=sharing">Problem 47 Three cubes of sides 60mm, 40mm and 20mm are placed centrally one above the other in the ascending order of their side. Draw the isometric projection of the combination</a></li>
    -------------------------------------------------------------------------------------------------------------------------------------------
-  <li><a href="https://drive.google.com/file/d/1mvRRChepd9pNIMCEna5K2xAaQCfFDT6o/view?usp=sharing">Problem 48 Acone of base diameter 50mm and height 60mm is placed centrally on an equilateral triangular prism of side-100mm and 20mm thick Draw the isometric projection of the combination</a></li>
+<li><a
+href="https://drive.google.com/file/d/1mvRRChepd9pNIMCEna5K2xAaQCfFDT6o/view?usp=sharing">Problem 48 Acone of base diameter 50mm and height 60mm is placed centrally on an equilateral triangular prism of side-100mm and 20mm thick Draw the isometric projection of the combination</a></li>
     -------------------------------------------------------------------------------------------------------------------------------------------
   <li><a href="https://drive.google.com/file/d/16Od2kk3oIWyO4OGFzwRsUc1W3Uj3DUuT/view?usp=sharing">Problem 49 A square prism side-40mm and height 70mm has a full depth co-axial square hole side-20mm, such that edges of both the squares are parallel. Draw the isometric projection of the combination</a></li>
    -------------------------------------------------------------------------------------------------------------------------------------------
   <li><a href="https://drive.google.com/file/d/1pV7FBcjMS5bdVohtEPBXTK-vunVl0PPK/view?usp=sharing">Problem 50 A nictangular slab base-100mmx80mm and height 30mm has a full depth co-axial square hole side- 40mm, such that one of the sides of the square is parallel to one of the sides of the rectangle. Draw the isometric projection of the combination</a></li>
+<li><a
 href="https://drive.google.com/file/d/1nNBVcokoGVzwktZxAYQIdg71PAp9ZQmx/view?usp=sharing">Link 1</a></li>
         <li><a href="https://drive.google.com/file/d/1X5A7mnPy5oQ2uUQeGXgSkw6CpehJnE9N/view?usp=sharing">Link 2</a></li>
         <li><a href="https://drive.google.com/file/d/1icesVlfK_azzfI59toDa5MN0y0mtix9R/view?usp=sharing">Link 3</a></li>
