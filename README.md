@@ -1,21 +1,50 @@
-
+!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>50 Links Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searchable Links</title>
+    <style>
+        /* Optional: Basic styling for better presentation */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        input[type="text"] {
+            padding: 8px;
+            margin-bottom: 10px;
+            width: 300px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            text-decoration: none;
+            color: #0366d6; /* Link color */
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-
-<h1>ISOMETRIC</h1>
-
-<ul>
-  <!-- Generate 50 links using a loop -->
-  <!-- Replace "#" with actual URLs as needed -->
-  <!-- Replace "Link X" with meaningful link text -->
-  <!-- Example: <li><a href="https://example.com/page1">Link 1</a></li> -->
-  <!-- Adjust href and link text for each link -->
-  <!-- You can use a script or server-side language for dynamic generation -->
+    <h1>Searchable Links</h1>
+    <input type="text" id="searchInput" placeholder="Search links...">
+    <ul id="linkList">
+        <!-- Generating 50 links -->
+        <!-- Change the href="#" to actual URLs you want -->
+        <!-- You can also change the link text as needed -->
+        <!-- Example: Link 1, Link 2, ..., Link 50 -->
+        <!-- Adjust the loop index as necessary -->
+        <!-- This example generates links numbered from 1 to 50 -->
+        <!-- You can modify it to suit your specific needs -->
+        <!-- For demonstration, they all link to "#" -->
+        <!-- Add your desired URLs and link text -->
+        <!-- Link 1 <li><a href="#">Link 1</a></li> -->
   <li><a href="https://drive.google.com/file/d/1cRzJjJjKQykBkCxLPTx5u6ip5utz-Mtg/view?usp=drive_link">Problem 1 A sphere of diameter 50 mm rests centrally on top of a cube of sides 50 mm. Draw the Isomet ric projections of the combination of solids</a></li>
  -------------------------------------------------------------------------------------------------------------------------------------------
   <li><a href="https://drive.google.com/file/d/1v2O0kr_3jkjdhDboAPsj86mgBbGihSKC/view?usp=sharing">Problem 2 A hemisphere of 40 mm diameter is supported co-axially on the vertex of a cone of base dia. 60 mm and axis length 50 mm. The flat circular face of the hemisphere is facing upside. Draw the isometric projection of the combination of solids.</a></li>
