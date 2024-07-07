@@ -7,14 +7,7 @@
     <title>Google Search</title>
 </head>
 <body>
-    <form action="https://www.google.com/search" method="GET" target="_blank">
-        <label for="search-input">Search Google:</label>
-        <input type="text" id="search-input" name="q" placeholder="Enter your search term...">
-        <button type="submit">Search</button>
-    </form>
-
-
-    <title>Searchable Links</title>
+    
     <style>
         /* Optional: Basic styling for better presentation */
         body {
