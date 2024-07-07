@@ -32,7 +32,7 @@
     </style>
 </head>
 <body>
-    <h1>iosometric</h1>
+    <h1>Iosometric and solids</h1>
     <input type="text" id="searchInput" placeholder="Search links...">
     <ul id="linkList">
         <!-- Generating 50 links -->
