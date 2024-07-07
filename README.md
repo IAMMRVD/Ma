@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, 
+  
   initial-scale=1.0">
-    <title>Google Search</title>
+  <title>Google Logo</title>
 </head>
+<body>
+  <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo">
+
 <body>
     
     <style>
@@ -37,7 +41,7 @@
 </head>
 <body>
     <center><h1>Iosometric and solids</h1></center>
-    <input type="text" id="searchInput" placeholder="Search links...">
+   <center> <input type="text" id="searchInput" placeholder="Search links..."></center>
     <ul id="linkList">
         <!-- Generating 50 links -->
         <!-- Change the href="#" to actual URLs you want -->
